@@ -8,8 +8,8 @@ node_modules/
 dist/
 web-build/
 expo-env.d.ts
-google-services.json
 app.json
+google-services.json
 # Native
 .kotlin/
 *.orig.*

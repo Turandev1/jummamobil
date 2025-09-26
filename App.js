@@ -27,8 +27,9 @@ ErrorUtils.setGlobalHandler((error, isFatal) => {
 });
 
 const App = () => {
-  
- 
+  useEffect(() => {
+    NotificationService.initialize();
+  }, []);
 
   const Rootnavigator = () => {
     const { isAuth } = useAuth();

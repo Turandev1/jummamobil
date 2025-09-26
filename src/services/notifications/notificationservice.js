@@ -1,9 +1,13 @@
+// src/services/notifications/notificationservice.js
 import * as Notifications from "expo-notifications";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createNavigationContainerRef } from "@react-navigation/native";
-import * as Device from "expo-device";
 import { Platform } from "react-native";
-import { debugLog, debugError, debugSuccess } from "../../config/notificationConfig";
+import {
+  debugLog,
+  debugError,
+  debugSuccess,
+} from "../../config/notificationConfig";
 
 export const navigationref = createNavigationContainerRef();
 
@@ -18,7 +22,7 @@ class NotificationService {
 
   static async initialize() {
     try {
-      // Add Android channel creation
+      // Android channel oluştur
       if (Platform.OS === "android") {
         await Notifications.setNotificationChannelAsync("default", {
           name: "default",
@@ -29,20 +33,20 @@ class NotificationService {
         });
       }
 
-      // Set up Expo notification handler
-      
+      // Foreground davranışı: custom UI göstereceğiz, OS banner kapalı
       Notifications.setNotificationHandler({
-        handleNotification: async (notification) => {
-          console.log("📱 Notification handler called:", notification);
+        handleNotification: async () => {
           return {
-            shouldShowAlert: true,
-            shouldPlaySound: true,
-            shouldSetBadge: true,
+            shouldShowAlert: false, // OS banner kapalı
+            shouldPlaySound: false, // OS sesi kapalı
+            shouldSetBadge: true, // rozet açık
+            shouldShowList: false, // iOS 16+ list kapalı
+            shouldShowBanner: false, // iOS banner kapalı
           };
         },
       });
 
-      // Expo notification listeners
+      // Tap listener ve cleanup
       NotificationService.setupExpoListeners();
 
       debugSuccess("NotificationService initialized successfully");
@@ -54,14 +58,14 @@ class NotificationService {
   }
 
   static setupExpoListeners() {
-    // Remove existing listeners first
+    // Önce var olan listenerleri temizle
     NotificationService.clearlisteners();
 
-    // Notification tap listener
-    const taplistener = Notifications.addNotificationResponseReceivedListener(
+    // Bildirime tıklama listener
+    const tapListener = Notifications.addNotificationResponseReceivedListener(
       (response) => {
         console.log(
-          "�� Notification tapped:",
+          "📌 Notification tapped:",
           response.notification.request.content.data
         );
         const data = response.notification.request.content.data;
@@ -71,16 +75,8 @@ class NotificationService {
       }
     );
 
-    // Background notification listener
-    const backgroundListener = Notifications.addNotificationReceivedListener(
-      (notification) => {
-        debugLog("Background notification received", notification);
-        NotificationService.processBackgroundMessage(notification);
-      }
-    );
-
-    // Store listeners for cleanup
-    NotificationService.listeners = [backgroundListener, taplistener];
+    // Listenerleri kaydet
+    NotificationService.listeners = [tapListener];
   }
 
   static clearlisteners() {
@@ -92,6 +88,7 @@ class NotificationService {
     NotificationService.listeners = [];
   }
 
+  // Background/Killed state için: OS banner gösterildiği için local notification schedule yok
   static async processBackgroundMessage(notification) {
     try {
       debugLog("Processing background notification", notification);
@@ -104,16 +101,10 @@ class NotificationService {
         fromBackground: true,
       };
 
+      // AsyncStorage'a kaydet
       await NotificationService.saveNotification(notificationData);
-      
-      // Trigger local notification if app is in background
-      if (Platform.OS === 'android' || Platform.OS === 'ios') {
-        try {
-          await NotificationService.scheduleNotification(notificationData);
-        } catch (scheduleError) {
-          debugError("Failed to schedule local notification", scheduleError);
-        }
-      }
+
+      // OS banner zaten gösteriyor, local notification schedule etmeye gerek yok
     } catch (error) {
       debugError("Error processing background notification", error);
     }
@@ -128,11 +119,12 @@ class NotificationService {
           data: notification.data,
           sound: "default",
           color: "#10B981",
+          channelId: "default", // Android kanalı
         },
         trigger: notification.trigger || null, // null = hemen göster
       });
 
-      // Save to local storage
+      // AsyncStorage'a kaydet
       await this.saveNotification({ ...notification, id });
       return id;
     } catch (error) {
