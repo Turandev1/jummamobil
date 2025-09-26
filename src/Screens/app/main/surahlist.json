@@ -1,0 +1,572 @@
+[
+    {
+        "name": "سُورَةُ ٱلْفَاتِحَةِ",
+        "number": 1,
+        "numberOfAyahs": 7
+    },
+    {
+        "name": "سُورَةُ البَقَرَةِ",
+        "number": 2,
+        "numberOfAyahs": 286
+    },
+    {
+        "name": "سُورَةُ آلِ عِمۡرَانَ",
+        "number": 3,
+        "numberOfAyahs": 200
+    },
+    {
+        "name": "سُورَةُ النِّسَاءِ",
+        "number": 4,
+        "numberOfAyahs": 176
+    },
+    {
+        "name": "سُورَةُ المَائـِدَةِ",
+        "number": 5,
+        "numberOfAyahs": 120
+    },
+    {
+        "name": "سُورَةُ الأَنۡعَامِ",
+        "number": 6,
+        "numberOfAyahs": 165
+    },
+    {
+        "name": "سُورَةُ الأَعۡرَافِ",
+        "number": 7,
+        "numberOfAyahs": 206
+    },
+    {
+        "name": "سُورَةُ الأَنفَالِ",
+        "number": 8,
+        "numberOfAyahs": 75
+    },
+    {
+        "name": "سُورَةُ التَّوۡبَةِ",
+        "number": 9,
+        "numberOfAyahs": 129
+    },
+    {
+        "name": "سُورَةُ يُونُسَ",
+        "number": 10,
+        "numberOfAyahs": 109
+    },
+    {
+        "name": "سُورَةُ هُودٍ",
+        "number": 11,
+        "numberOfAyahs": 123
+    },
+    {
+        "name": "سُورَةُ يُوسُفَ",
+        "number": 12,
+        "numberOfAyahs": 111
+    },
+    {
+        "name": "سُورَةُ الرَّعۡدِ",
+        "number": 13,
+        "numberOfAyahs": 43
+    },
+    {
+        "name": "سُورَةُ إِبۡرَاهِيمَ",
+        "number": 14,
+        "numberOfAyahs": 52
+    },
+    {
+        "name": "سُورَةُ الحِجۡرِ",
+        "number": 15,
+        "numberOfAyahs": 99
+    },
+    {
+        "name": "سُورَةُ النَّحۡلِ",
+        "number": 16,
+        "numberOfAyahs": 128
+    },
+    {
+        "name": "سُورَةُ الإِسۡرَاءِ",
+        "number": 17,
+        "numberOfAyahs": 111
+    },
+    {
+        "name": "سُورَةُ الكَهۡفِ",
+        "number": 18,
+        "numberOfAyahs": 110
+    },
+    {
+        "name": "سُورَةُ مَرۡيَمَ",
+        "number": 19,
+        "numberOfAyahs": 98
+    },
+    {
+        "name": "سُورَةُ طه",
+        "number": 20,
+        "numberOfAyahs": 135
+    },
+    {
+        "name": "سُورَةُ الأَنبِيَاءِ",
+        "number": 21,
+        "numberOfAyahs": 112
+    },
+    {
+        "name": "سُورَةُ الحَجِّ",
+        "number": 22,
+        "numberOfAyahs": 78
+    },
+    {
+        "name": "سُورَةُ المُؤۡمِنُونَ",
+        "number": 23,
+        "numberOfAyahs": 118
+    },
+    {
+        "name": "سُورَةُ النُّورِ",
+        "number": 24,
+        "numberOfAyahs": 64
+    },
+    {
+        "name": "سُورَةُ الفُرۡقَانِ",
+        "number": 25,
+        "numberOfAyahs": 77
+    },
+    {
+        "name": "سُورَةُ الشُّعَرَاءِ",
+        "number": 26,
+        "numberOfAyahs": 227
+    },
+    {
+        "name": "سُورَةُ النَّمۡلِ",
+        "number": 27,
+        "numberOfAyahs": 93
+    },
+    {
+        "name": "سُورَةُ القَصَصِ",
+        "number": 28,
+        "numberOfAyahs": 88
+    },
+    {
+        "name": "سُورَةُ العَنكَبُوتِ",
+        "number": 29,
+        "numberOfAyahs": 69
+    },
+    {
+        "name": "سُورَةُ الرُّومِ",
+        "number": 30,
+        "numberOfAyahs": 60
+    },
+    {
+        "name": "سُورَةُ لُقۡمَانَ",
+        "number": 31,
+        "numberOfAyahs": 34
+    },
+    {
+        "name": "سُورَةُ السَّجۡدَةِ",
+        "number": 32,
+        "numberOfAyahs": 30
+    },
+    {
+        "name": "سُورَةُ الأَحۡزَابِ",
+        "number": 33,
+        "numberOfAyahs": 73
+    },
+    {
+        "name": "سُورَةُ سَبَإٍ",
+        "number": 34,
+        "numberOfAyahs": 54
+    },
+    {
+        "name": "سُورَةُ فَاطِرٍ",
+        "number": 35,
+        "numberOfAyahs": 45
+    },
+    {
+        "name": "سُورَةُ يسٓ",
+        "number": 36,
+        "numberOfAyahs": 83
+    },
+    {
+        "name": "سُورَةُ الصَّافَّاتِ",
+        "number": 37,
+        "numberOfAyahs": 182
+    },
+    {
+        "name": "سُورَةُ صٓ",
+        "number": 38,
+        "numberOfAyahs": 88
+    },
+    {
+        "name": "سُورَةُ الزُّمَرِ",
+        "number": 39,
+        "numberOfAyahs": 75
+    },
+    {
+        "name": "سُورَةُ غَافِرٍ",
+        "number": 40,
+        "numberOfAyahs": 85
+    },
+    {
+        "name": "سُورَةُ فُصِّلَتۡ",
+        "number": 41,
+        "numberOfAyahs": 54
+    },
+    {
+        "name": "سُورَةُ الشُّورَىٰ",
+        "number": 42,
+        "numberOfAyahs": 53
+    },
+    {
+        "name": "سُورَةُ الزُّخۡرُفِ",
+        "number": 43,
+        "numberOfAyahs": 89
+    },
+    {
+        "name": "سُورَةُ الدُّخَانِ",
+        "number": 44,
+        "numberOfAyahs": 59
+    },
+    {
+        "name": "سُورَةُ الجَاثِيَةِ",
+        "number": 45,
+        "numberOfAyahs": 37
+    },
+    {
+        "name": "سُورَةُ الأَحۡقَافِ",
+        "number": 46,
+        "numberOfAyahs": 35
+    },
+    {
+        "name": "سُورَةُ مُحَمَّدٍ",
+        "number": 47,
+        "numberOfAyahs": 38
+    },
+    {
+        "name": "سُورَةُ الفَتۡحِ",
+        "number": 48,
+        "numberOfAyahs": 29
+    },
+    {
+        "name": "سُورَةُ الحُجُرَاتِ",
+        "number": 49,
+        "numberOfAyahs": 18
+    },
+    {
+        "name": "سُورَةُ قٓ",
+        "number": 50,
+        "numberOfAyahs": 45
+    },
+    {
+        "name": "سُورَةُ الذَّارِيَاتِ",
+        "number": 51,
+        "numberOfAyahs": 60
+    },
+    {
+        "name": "سُورَةُ الطُّورِ",
+        "number": 52,
+        "numberOfAyahs": 49
+    },
+    {
+        "name": "سُورَةُ النَّجۡمِ",
+        "number": 53,
+        "numberOfAyahs": 62
+    },
+    {
+        "name": "سُورَةُ القَمَرِ",
+        "number": 54,
+        "numberOfAyahs": 55
+    },
+    {
+        "name": "سُورَةُ الرَّحۡمَٰن",
+        "number": 55,
+        "numberOfAyahs": 78
+    },
+    {
+        "name": "سُورَةُ الوَاقِعَةِ",
+        "number": 56,
+        "numberOfAyahs": 96
+    },
+    {
+        "name": "سُورَةُ الحَدِيدِ",
+        "number": 57,
+        "numberOfAyahs": 29
+    },
+    {
+        "name": "سُورَةُ المُجَادلَةِ",
+        "number": 58,
+        "numberOfAyahs": 22
+    },
+    {
+        "name": "سُورَةُ الحَشۡرِ",
+        "number": 59,
+        "numberOfAyahs": 24
+    },
+    {
+        "name": "سُورَةُ المُمۡتَحنَةِ",
+        "number": 60,
+        "numberOfAyahs": 13
+    },
+    {
+        "name": "سُورَةُ الصَّفِّ",
+        "number": 61,
+        "numberOfAyahs": 14
+    },
+    {
+        "name": "سُورَةُ الجُمُعَةِ",
+        "number": 62,
+        "numberOfAyahs": 11
+    },
+    {
+        "name": "سُورَةُ المُنَافِقُونَ",
+        "number": 63,
+        "numberOfAyahs": 11
+    },
+    {
+        "name": "سُورَةُ التَّغَابُنِ",
+        "number": 64,
+        "numberOfAyahs": 18
+    },
+    {
+        "name": "سُورَةُ الطَّلَاقِ",
+        "number": 65,
+        "numberOfAyahs": 12
+    },
+    {
+        "name": "سُورَةُ التَّحۡرِيمِ",
+        "number": 66,
+        "numberOfAyahs": 12
+    },
+    {
+        "name": "سُورَةُ المُلۡكِ",
+        "number": 67,
+        "numberOfAyahs": 30
+    },
+    {
+        "name": "سُورَةُ القَلَمِ",
+        "number": 68,
+        "numberOfAyahs": 52
+    },
+    {
+        "name": "سُورَةُ الحَاقَّةِ",
+        "number": 69,
+        "numberOfAyahs": 52
+    },
+    {
+        "name": "سُورَةُ المَعَارِجِ",
+        "number": 70,
+        "numberOfAyahs": 44
+    },
+    {
+        "name": "سُورَةُ نُوحٍ",
+        "number": 71,
+        "numberOfAyahs": 28
+    },
+    {
+        "name": "سُورَةُ الجِنِّ",
+        "number": 72,
+        "numberOfAyahs": 28
+    },
+    {
+        "name": "سُورَةُ المُزَّمِّلِ",
+        "number": 73,
+        "numberOfAyahs": 20
+    },
+    {
+        "name": "سُورَةُ المُدَّثِّرِ",
+        "number": 74,
+        "numberOfAyahs": 56
+    },
+    {
+        "name": "سُورَةُ القِيَامَةِ",
+        "number": 75,
+        "numberOfAyahs": 40
+    },
+    {
+        "name": "سُورَةُ الإِنسَانِ",
+        "number": 76,
+        "numberOfAyahs": 31
+    },
+    {
+        "name": "سُورَةُ المُرۡسَلَاتِ",
+        "number": 77,
+        "numberOfAyahs": 50
+    },
+    {
+        "name": "سُورَةُ النَّبَإِ",
+        "number": 78,
+        "numberOfAyahs": 40
+    },
+    {
+        "name": "سُورَةُ النَّازِعَاتِ",
+        "number": 79,
+        "numberOfAyahs": 46
+    },
+    {
+        "name": "سُورَةُ عَبَسَ",
+        "number": 80,
+        "numberOfAyahs": 42
+    },
+    {
+        "name": "سُورَةُ التَّكۡوِيرِ",
+        "number": 81,
+        "numberOfAyahs": 29
+    },
+    {
+        "name": "سُورَةُ الانفِطَارِ",
+        "number": 82,
+        "numberOfAyahs": 19
+    },
+    {
+        "name": "سُورَةُ المُطَفِّفِينَ",
+        "number": 83,
+        "numberOfAyahs": 36
+    },
+    {
+        "name": "سُورَةُ الانشِقَاقِ",
+        "number": 84,
+        "numberOfAyahs": 25
+    },
+    {
+        "name": "سُورَةُ البُرُوجِ",
+        "number": 85,
+        "numberOfAyahs": 22
+    },
+    {
+        "name": "سُورَةُ الطَّارِقِ",
+        "number": 86,
+        "numberOfAyahs": 17
+    },
+    {
+        "name": "سُورَةُ الأَعۡلَىٰ",
+        "number": 87,
+        "numberOfAyahs": 19
+    },
+    {
+        "name": "سُورَةُ الغَاشِيَةِ",
+        "number": 88,
+        "numberOfAyahs": 26
+    },
+    {
+        "name": "سُورَةُ الفَجۡرِ",
+        "number": 89,
+        "numberOfAyahs": 30
+    },
+    {
+        "name": "سُورَةُ البَلَدِ",
+        "number": 90,
+        "numberOfAyahs": 20
+    },
+    {
+        "name": "سُورَةُ الشَّمۡسِ",
+        "number": 91,
+        "numberOfAyahs": 15
+    },
+    {
+        "name": "سُورَةُ اللَّيۡلِ",
+        "number": 92,
+        "numberOfAyahs": 21
+    },
+    {
+        "name": "سُورَةُ الضُّحَىٰ",
+        "number": 93,
+        "numberOfAyahs": 11
+    },
+    {
+        "name": "سُورَةُ الشَّرۡحِ",
+        "number": 94,
+        "numberOfAyahs": 8
+    },
+    {
+        "name": "سُورَةُ التِّينِ",
+        "number": 95,
+        "numberOfAyahs": 8
+    },
+    {
+        "name": "سُورَةُ العَلَقِ",
+        "number": 96,
+        "numberOfAyahs": 19
+    },
+    {
+        "name": "سُورَةُ القَدۡرِ",
+        "number": 97,
+        "numberOfAyahs": 5
+    },
+    {
+        "name": "سُورَةُ البَيِّنَةِ",
+        "number": 98,
+        "numberOfAyahs": 8
+    },
+    {
+        "name": "سُ ورَةُ الزَّلۡزَلَةِ",
+        "number": 99,
+        "numberOfAyahs": 8
+    },
+    {
+        "name": "سُورَةُ العَادِيَاتِ",
+        "number": 100,
+        "numberOfAyahs": 11
+    },
+    {
+        "name": "سُورَةُ القَارِعَةِ",
+        "number": 101,
+        "numberOfAyahs": 11
+    },
+    {
+        "name": "سُورَةُ التَّكَاثُرِ",
+        "number": 102,
+        "numberOfAyahs": 8
+    },
+    {
+        "name": "سُورَةُ العَصۡرِ",
+        "number": 103,
+        "numberOfAyahs": 3
+    },
+    {
+        "name": "سُورَةُ الهُمَزَةِ",
+        "number": 104,
+        "numberOfAyahs": 9
+    },
+    {
+        "name": "سُورَةُ الفِيلِ",
+        "number": 105,
+        "numberOfAyahs": 5
+    },
+    {
+        "name": "سُورَةُ قُرَيۡشٍ",
+        "number": 106,
+        "numberOfAyahs": 4
+    },
+    {
+        "name": "سُورَةُ المَاعُونِ",
+        "number": 107,
+        "numberOfAyahs": 7
+    },
+    {
+        "name": "سُورَةُ الكَوۡثَرِ",
+        "number": 108,
+        "numberOfAyahs": 3
+    },
+    {
+        "name": "سُورَةُ الكَافِرُونَ",
+        "number": 109,
+        "numberOfAyahs": 6
+    },
+    {
+        "name": "سُورَةُ النَّصۡرِ",
+        "number": 110,
+        "numberOfAyahs": 3
+    },
+    {
+        "name": "سُورَةُ المَسَدِ",
+        "number": 111,
+        "numberOfAyahs": 5
+    },
+    {
+        "name": "سُورَةُ الإِخۡلَاصِ",
+        "number": 112,
+        "numberOfAyahs": 4
+    },
+    {
+        "name": "سُورَةُ الفَلَقِ",
+        "number": 113,
+        "numberOfAyahs": 5
+    },
+    {
+        "name": "سُورَةُ النَّاسِ",
+        "number": 114,
+        "numberOfAyahs": 6
+    }
+]

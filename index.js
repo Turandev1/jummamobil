@@ -1,4 +1,5 @@
 import { registerRootComponent } from 'expo';
+import tw from "twrnc";
 
 import App from './App';
 
